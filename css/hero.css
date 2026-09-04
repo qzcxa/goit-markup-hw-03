@@ -1,6 +1,6 @@
 .hero {
   background: #2e2f42;
-  padding: 188px 0;
+   padding: 188px 0;
 }
 .hero-container {
   display: flex;
@@ -9,8 +9,6 @@
 }
 .hero-title {
   max-width: 496px;
-  padding: 0 15px;
-  margin: 48px;
 
   font-weight: 700;
   font-size: 56px;
@@ -23,6 +21,7 @@
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
+  max-width: 169px;
 
   line-height: 1.5;
   cursor: pointer;
