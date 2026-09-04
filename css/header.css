@@ -5,7 +5,6 @@
 .home .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -23,6 +22,7 @@
   display: block;
   align-items: center;
   margin-left: 76px;
+  margin-right: auto;
 }
 .main-nav-list {
   display: flex;
@@ -68,7 +68,7 @@
 .item-feauter:active {
   color: #404bbf;
 }
-address > ul {
+.address-list {
   display: flex;
   align-items: center;
   gap: 40px;

@@ -4,8 +4,9 @@
 .portfolio-container {
   display: flex;
   align-items: center;
+  
 }
-.portfolio-content {
+.portfolio-content{
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
@@ -30,7 +31,7 @@
 }
 .portfolio-img {
   display: block;
-  width: 360px;
+  width: 100%;
   height: 300px;
 }
 .portfolio-item-text {
