@@ -1,5 +1,6 @@
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -10,11 +11,13 @@
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer-logo-part{
-    text-transform: uppercase;
+.footer-logo-part {
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .footer-text {
+  margin-top: 16px;
+  max-width: 264px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;

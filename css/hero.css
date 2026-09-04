@@ -1,8 +1,17 @@
 .hero {
   background: #2e2f42;
+   padding: 188px 0;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hero-title {
-  font-family: "Roboto", sans-serif;
+  max-width: 496px;
+  padding: 0 15px;
+  margin: 48px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -11,11 +20,14 @@
   color: #fff;
 }
 .hero-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  max-width: 169px;
+
   line-height: 1.5;
   cursor: pointer;
   color: #fff;
   background-color: #4d5ae5;
-  
 }
 .hero-button:hover,
 .hero-button:focus {
